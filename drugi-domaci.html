@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+       
+        
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+
+      .forma{
+   
+        width: 500px;
+        padding: 15px 10px  ;
+        border-style: solid;
+        border-color: green;
+        margin: 20px 500px;
+        text-align: center;
+        font-family:'Courier New', Courier, monospace;
+        
+      }
+
+      label{
+
+       width: 40px;
+       display: inline-block;
+       text-align: center;
+       margin: 20px; 
+
+      }
+
+      #labelo
+
+      {
+
+        color: red;
+        background-color: green;
+        
+      }
+
+
+    </style>
+    <table border="2px" bgcolor="green">
+
+      <tr>
+    <th bgcolor="blue" style="text-align: center;">Ime</th>
+    <th bgcolor="yellow"  style="text-align: right;">Prezime</th>
+    <th bgcolor="green"  style="text-align: left;">JMBG</th>
+      </tr>
+
+      <tr>
+    <td  bgcolor="blue">Milos</td>
+    <td bgcolor="yellow">Vukadinovic</td>
+    <td>012193139</td>
+
+      </tr>
+      
+      <tr>
+     <td id="labelo">Marko</td>
+     <td  id="labelo">Stefanovic</td>
+     <td  id="labelo">012939323</td>
+      </tr>
+
+      <tr>
+        <td  bgcolor="blue">Aleksa</td>
+        <td bgcolor="yellow">MIlosavljevic</td>
+         <td>02109129</td>
+      </tr>
+
+
+
+    </table><br>
+
+</head>
+<body>
+   
+    <form action="method"="POST" class="forma">
+        
+    <label for="username">Ime</label>
+    <input type="text"><br>
+    <label for="username">Prezime</label>
+    <input type="text"><br>
+    <label for="username">  JMBG</label>
+    <input type="text"><br>
+    <input type="submit" value="Potvrdi">
+
+   
+     </form>
+   
+
+</body>
+</html>
